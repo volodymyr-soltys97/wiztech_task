@@ -1,0 +1,28 @@
+.userCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.userCard img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userCard div {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.userCard a {
+  text-decoration: none;
+  color: #0070f3;
+}
+
+.userCard a:hover {
+  text-decoration: underline;
+}
